@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="inputext" placeholder="0">
+            <button onclick="calculate()">Deg</button>
+            <button onclick="calculate()">x!</button>
+            <button onclick="calculate('(')">(</button>
+            <button onclick="calculate(')')">)</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="clr()">AC</button>
+            <button class="sin" onclick="sin()">sin</button>
+            <button onclick="calculate()">ln</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button onclick="calculate('/')">÷</button>
+            <button onclick="cos()">cos</button>
+            <button onclick="log()">log</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button onclick="calculate('*')">×</button>
+            <button onclick="tan()">tan</button>
+            <button onclick="squareroot()">√</button>
+            <button onclick="calculate(1)">1</button>
+            <button onclick="calculate(2)">2</button>
+            <button onclick="calculate(3)">3</button>
+            <button onclick="calculate('-')">-</button>
+            <button onclick="calculate()">EXP</button>
+            <button onclick="square()">x^y</button>
+            <button onclick="calculate(0)">0</button>
+            <button onclick="calculate('.')">.</button>
+            <button id="equal" onclick="results()" >=</button>
+            <button onclick="calculate('+')">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
